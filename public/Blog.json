@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "category": "Guide",
+    "name": "The Intermediate Guide to Healthy Food",
+    "tags": ["Starter", "Guide", "Nutrition"],
+    "image": "https://i.ibb.co.com/zHf1ffw3/1403.png",
+    "date": "2025-10-05",
+    "views": 1832,
+    "minutes": 20,
+    "minutesRead": 5
+  },
+  {
+    "id": 2,
+    "category": "Recipe",
+    "name": "Summer Quinoa Baked Jam with Lemon Dill",
+    "tags": ["Smart Eats", "Light Meal", "Vegan"],
+    "image": "https://i.ibb.co.com/Df16jFsX/1407.png",
+    "date": "2025-10-07",
+    "views": 2645,
+    "minutes": 35,
+    "minutesRead": 6
+  },
+  {
+    "id": 3,
+    "category": "Recipe",
+    "name": "Coconut Chicken with Smashed Potatoes",
+    "tags": ["Breakfast", "Dinner", "Protein"],
+    "image": "https://i.ibb.co.com/1GYY5X1J/1410.png",
+    "date": "2025-10-09",
+    "views": 3120,
+    "minutes": 40,
+    "minutesRead": 7
+  },
+  {
+    "id": 4,
+    "category": "Recipe",
+    "name": "Harissa Chickpeas with Whipped Feta",
+    "tags": ["30 Min Meal", "One Pan", "Low Calorie"],
+    "image": "https://i.ibb.co.com/8LdX442F/1414.png",
+    "date": "2025-10-11",
+    "views": 1588,
+    "minutes": 25,
+    "minutesRead": 4
+  },
+  {
+    "id": 5,
+    "category": "Breakfast",
+    "name": "Almond Butter Chocolate Chip Zucchini Bars",
+    "tags": ["No Refined Sugar", "Kids Friendly", "High Fiber"],
+    "image": "https://i.ibb.co.com/20RXcxrh/1417.png",
+    "date": "2025-10-12",
+    "views": 2279,
+    "minutes": 30,
+    "minutesRead": 5
+  },
+  {
+    "id": 6,
+    "category": "Vegan",
+    "name": "Smoky Beans & Greens Tacos with Aji Verde",
+    "tags": ["High Fiber", "Gluten-Free", "Low Fat"],
+    "image": "https://i.ibb.co.com/ynYn0THt/1420.png",
+    "date": "2025-10-13",
+    "views": 1984,
+    "minutes": 25,
+    "minutesRead": 4
+  },
+  {
+    "id": 7,
+    "category": "Kitchen Tips",
+    "name": "Sticky Ginger Rice Bowls with Pickled Veg",
+    "tags": ["30 Minutes", "Vegan", "Budget Meal"],
+    "image": "https://i.ibb.co.com/kghsLGzR/1424.png",
+    "date": "2025-10-14",
+    "views": 1765,
+    "minutes": 30,
+    "minutesRead": 5
+  },
+  {
+    "id": 8,
+    "category": "Pasta Dish",
+    "name": "Creamy Garlic Sun-Dried Tomato Pasta",
+    "tags": ["Full Meal", "Low Sodium", "High Fiber"],
+    "image": "https://i.ibb.co.com/Qj69T7Y3/1428.png",
+    "date": "2025-10-16",
+    "views": 2950,
+    "minutes": 28,
+    "minutesRead": 5
+  },
+  {
+    "id": 9,
+    "category": "Healthy Tips",
+    "name": "The Absolute Easiest Spinach and Pizza",
+    "tags": ["5 Ingredients", "Healthy", "Vegetarian"],
+    "image": "https://i.ibb.co.com/m58wYpQy/1431.png",
+    "date": "2025-10-18",
+    "views": 2140,
+    "minutes": 22,
+    "minutesRead": 4
+  },
+  {
+    "id": 10,
+    "category": "Dessert",
+    "name": "Sticky Ginger Rice Bowls with Pickled",
+    "tags": ["30 Min Meal", "Gluten-Free", "Low Sugar"],
+    "image": "https://i.ibb.co.com/JFHfRmJ9/1434.png",
+    "date": "2025-10-19",
+    "views": 1712,
+    "minutes": 25,
+    "minutesRead": 4
+  },
+  {
+    "id": 11,
+    "category": "Dessert",
+    "name": "The Best Soft Chocolate Chip Cookies",
+    "tags": ["No Refined Sugar", "Kids Favorite", "Quick Bake"],
+    "image": "https://i.ibb.co.com/zHf1ffw3/1403.png",
+    "date": "2025-10-20",
+    "views": 3556,
+    "minutes": 18,
+    "minutesRead": 3
+  },
+  {
+    "id": 12,
+    "category": "Recipe",
+    "name": "Baked Mozzarella Chicken Rolls",
+    "tags": ["Cheesy Meal", "Dinner", "Low Carb"],
+    "image": "https://i.ibb.co.com/v48dhxcP/1440.png",
+    "date": "2025-10-22",
+    "views": 2874,
+    "minutes": 35,
+    "minutesRead": 6
+  },
+  {
+    "id": 13,
+    "category": "Breakfast",
+    "name": "The Best Avocado Egg Salad",
+    "tags": ["Protein Packed", "Easy Prep", "Low Carb"],
+    "image": "https://i.ibb.co.com/TBt9rQMZ/1443.png",
+    "date": "2025-10-24",
+    "views": 2429,
+    "minutes": 15,
+    "minutesRead": 3
+  },
+  {
+    "id": 14,
+    "category": "Vegetarian",
+    "name": "The Rigonats on the screen are real kitchen",
+    "tags": ["15 Min Meal", "One Pan", "Vegan"],
+    "image": "https://i.ibb.co.com/KzyhnYpb/1446.png",
+    "date": "2025-10-25",
+    "views": 1935,
+    "minutes": 15,
+    "minutesRead": 2
+  },
+  {
+    "id": 15,
+    "category": "Vegetarian",
+    "name": "The Rigonats on the screen are real kitchen",
+    "tags": ["15 Min Meal", "One Pan", "Vegetarian"],
+    "image": "https://i.ibb.co.com/HDCqDndy/1449.png",
+    "date": "2025-10-26",
+    "views": 1890,
+    "minutes": 15,
+    "minutesRead": 2
+  }
+]

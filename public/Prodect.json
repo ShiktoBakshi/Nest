@@ -1,0 +1,178 @@
+[
+  {
+    "id": 1,
+    "category": "Baking essentials",
+    "name": "Foster Farms Takeout Crispy Classic",
+    "brand": "Country Crock",
+    "price": 17.85,
+    "old_price": 19.80,
+    "discount": "10%",
+    "image": "https://i.ibb.co.com/s9wDmTYd/Foster-Farms-Takeout-Crispy-Classic.png",
+    "label": "Hot"
+  },
+  {
+    "id": 2,
+    "category": "Baking ingredients",
+    "name": "Organic Cage Grade A Large Eggs",
+    "brand": "Hamburger Hal",
+    "price": 21.00,
+    "old_price": 24.00,
+    "discount": "13%",
+    "image": "https://i.ibb.co.com/Z1hy3CG9/Organic-Cage-Grade-A-Large-Eggs.png",
+    "label": ""
+  },
+  {
+    "id": 3,
+    "category": "Baking material",
+    "name": "Haogen Caramel Cone Ice Cream Boxed",
+    "brand": "Hamburger Hal",
+    "price": 22.85,
+    "old_price": 24.80,
+    "discount": "8%",
+    "image": "",
+    "label": "https://i.ibb.co.com/8DwNx8bH/Haagen-Caramel-Cone-Ice-Cream-Boxed.png"
+  },
+  {
+    "id": 4,
+    "category": "Fresh Seafood",
+    "name": "All Natural Style Chicken Meatballs",
+    "brand": "Wonderful",
+    "price": "23.00 - 122.00",
+    "old_price": "",
+    "discount": "44%",
+    "image": "https://i.ibb.co.com/dwCLxhRq/Chicken-Meatballs.png",
+    "label": "Sale"
+  },
+  {
+    "id": 5,
+    "category": "Fresh Fruit",
+    "name": "Blue Almonds Lightly Salted Vegetables",
+    "brand": "Country Crock",
+    "price": 23.85,
+    "old_price": 25.30,
+    "discount": "6%",
+    "image": "https://i.ibb.co.com/jk9RFXtP/Blue-Almonds-Lightly-Salted-Vegetables.png",
+    "label": "Hot"
+  },
+  {
+    "id": 6,
+    "category": "Fresh Seafood",
+    "name": "Gorton's Beer Battered Fish Fillets",
+    "brand": "Hamburger Hal",
+    "price": 23.85,
+    "old_price": 25.80,
+    "discount": "8%",
+    "image": "https://i.ibb.co.com/gMxXFmxw/Gorton-s-Beer-Battered-Fish-Fillets.png",
+    "label": ""
+  },
+  {
+    "id": 7,
+    "category": "Fresh Fruit",
+    "name": "Seeds of Change Organic Red Rice",
+    "brand": "NextFood",
+    "price": 28.85,
+    "old_price": 32.00,
+    "discount": "13%",
+    "image": "https://i.ibb.co.com/wZyg0b2Z/Seeds-of-Change-Organic-Red-Rice.png",
+    "label": ""
+  },
+  {
+    "id": 8,
+    "category": "Baking material",
+    "name": "Canodo Dry Ginger Ale - 2L Bottle",
+    "brand": "Hamburger Hal",
+    "price": 32.85,
+    "old_price": 34.00,
+    "discount": "3%",
+    "image": "https://i.ibb.co.com/FkWFWGhB/Canada-Dry-Ginger-Ale-2-L-Bottle.png",
+    "label": ""
+  },
+  {
+    "id": 9,
+    "category": "Clothing & Beauty",
+    "name": "Encore Seafoods Stuffed Alaskan",
+    "brand": "Hamburger Hal",
+    "price": 35.85,
+    "old_price": 37.00,
+    "discount": "4%",
+    "image": "https://i.ibb.co.com/8LKXg5sH/Encore-Seafoods-Stuffed-Alaskan.png",
+    "label": ""
+  },
+  {
+    "id": 10,
+    "category": "Baking material",
+    "name": "Angie’s Sweet & Salty Kettle Corn",
+    "brand": "Country Crock",
+    "price": 48.85,
+    "old_price": 55.00,
+    "discount": "8%",
+    "image": "https://i.ibb.co.com/VWhK0Ytp/Angie-s-Sweet-Salty-Kettle-Corn.png",
+    "label": "New"
+  },
+  {
+    "id": 11,
+    "category": "Fresh Fruit",
+    "name": "Chobani Complete Vanilla Greek Yogurt",
+    "brand": "Country Crock",
+    "price": 54.85,
+    "old_price": 56.00,
+    "discount": "2%",
+    "image": "https://i.ibb.co.com/fzkRB65h/Vanilla-Greek.png",
+    "label": ""
+  },
+  {
+    "id": 12,
+    "category": "Baking material",
+    "name": "Extra virgin olive oil, canola oil, nonfat",
+    "brand": "Totino’s Pizza",
+    "price": 58.00,
+    "old_price": 60.00,
+    "discount": "4%",
+    "image": "https://i.ibb.co.com/jk9RFXtP/Blue-Almonds-Lightly-Salted-Vegetables.png",
+    "label": ""
+  },
+  {
+    "id": 13,
+    "category": "Baking material",
+    "name": "Frozen vegetables broccoli, spinach",
+    "brand": "Totino’s Pizza",
+    "price": 71.00,
+    "old_price": 75.00,
+    "discount": "6%",
+    "image": "https://i.ibb.co.com/VWhK0Ytp/Angie-s-Sweet-Salty-Kettle-Corn.png",
+    "label": ""
+  },
+  {
+    "id": 14,
+    "category": "Fresh Fruit",
+    "name": "Frozen fruit strawberry, berries",
+    "brand": "Maruchan Ramen",
+    "price": 78.00,
+    "old_price": 90.00,
+    "discount": "21%",
+    "image": "https://i.ibb.co.com/FkWFWGhB/Canada-Dry-Ginger-Ale-2-L-Bottle.png",
+    "label": ""
+  },
+  {
+    "id": 15,
+    "category": "Bread and Juice",
+    "name": "Pre-portioned, low-fat ice cream yogurt",
+    "brand": "Maruchan Ramen",
+    "price": 79.00,
+    "old_price": 90.00,
+    "discount": "21%",
+    "image": "https://i.ibb.co.com/dwCLxhRq/Chicken-Meatballs.png",
+    "label": ""
+  },
+  {
+    "id": 16,
+    "category": "Baking material",
+    "name": "Dried fruit: apricots, figs, prunes",
+    "brand": "USA Noodle Soup",
+    "price": 56.00,
+    "old_price": 77.00,
+    "discount": "27%",
+    "image": "https://i.ibb.co.com/8DwNx8bH/Haagen-Caramel-Cone-Ice-Cream-Boxed.png",
+    "label": ""
+  }
+]
