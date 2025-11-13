@@ -1,3 +1,5 @@
+import { FaMapMarkedAlt } from "react-icons/fa";
+
 import Banner from "./Banner";
 
 
@@ -5,72 +7,120 @@ import Banner from "./Banner";
 
 const Contact = () => {
   return (
-    <div className="px-6 md:px-16 py-12 text-gray-800">
+    <div className="px-6 md:px-16  py-12 text-gray-800">
       {/* Header Section */}
-      {/* <div className="text-center mb-12">
-        <h4 className="text-[#3bb77e] font-semibold text-lg">How can help you ?</h4>
-        <h2 className="text-3xl md:text-4xl font-bold mt-2">
-          Let us know how <br /> we can help you
-        </h2>
-        <p className="mt-4 text-gray-500 max-w-2xl mx-auto">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-          tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-        </p>
+        
+     
+      <h1 className="text-[#3BB77E] text-lg">How can help you ?</h1>
+
+      <section className="grid grid-cols-1 lg:grid-cols-2 gap-15 justify-center items-center  ">
+        <div>
+
+          <h1 className="text-5xl  font-bold py-5 ">Let us know how
+            we can help you</h1>
+
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In eveniet excepturi architecto sed ut ab inventore. Sapiente, quo numquam doloremque adipisci, perspiciatis tenetur, amet exercitationem harum a in quam. Asperiores facere quisquam distinctio? Aperiam saepe ex earum vitae aspernatur odit!</p>
+
+
+
+        </div>
+        <div>
+          <div className="flex py-5 gap-5">
+            <div>
+              <h3 className="text-lg font-bold">01. Visit Feedback</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, accusantium.</p>
+            </div>
+            <div>
+              <h3 className="text-lg font-bold">02. Employer Services</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, accusantium.</p>
+            </div>
+
+          </div>
+          <div className="flex py-5 gap-5">
+            <div>
+              <h3 className="text-[#3BB77E] text-lg font-bold">03. Billing Inquiries</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, accusantium.</p>
+            </div>
+            <div>
+              <h3 className="text-lg font-bold">04.General Inquiries</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, accusantium.</p>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      {/* {/* Help Topics */}
+      <div className="grid grid-cols-1 mx-auto justify-center  lg:grid-cols-3 md:grid-cols-2 py-20 ">
+        <div>
+          <h3 className="text-lg font-semibold text-[#3BB77E]">Office</h3>
+          <p>205 North Michigan Avenue, Suite 810</p>
+          <p>Chicago, 60601, USA</p>
+          <p>
+            <span className="font-medium">Phone:</span> (123) 456-7890
+          </p>
+          <p>
+            <span className="font-medium">Email:</span>{" "}
+            <a
+              href="mailto:contact@Evara.com"
+              className="text-[#3BB77E] hover:underline"
+            >
+              contact@Evara.com
+            </a>
+          </p>
+
+          <button className="mt-3 flex items-center gap-2 bg-[#3BB77E] text-white px-5 py-2 rounded-lg hover:bg-[#2e9e67] transition-all">
+            <FaMapMarkedAlt />
+            View map
+          </button>
+        </div>
+        <div>
+          <h3 className="text-lg font-semibold text-[#3BB77E]">Studio</h3>
+          <p>205 North Michigan Avenue, Suite 810</p>
+          <p>Chicago, 60601, USA</p>
+          <p>
+            <span className="font-medium">Phone:</span> (123) 456-7890
+          </p>
+          <p>
+            <span className="font-medium">Email:</span>{" "}
+            <a
+              href="mailto:contact@Evara.com"
+              className="text-[#3BB77E] hover:underline"
+            >
+              contact@Evara.com
+            </a>
+          </p>
+
+          <button className="mt-3 flex items-center gap-2 bg-[#3BB77E] text-white px-5 py-2 rounded-lg hover:bg-[#2e9e67] transition-all">
+            <FaMapMarkedAlt />
+            View map
+          </button>
+        </div>
+        <div>
+          <h3 className="text-lg font-semibold text-[#3BB77E]">Shop</h3>
+          <p>205 North Michigan Avenue, Suite 810</p>
+          <p>Chicago, 60601, USA</p>
+          <p>
+            <span className="font-medium">Phone:</span> (123) 456-7890
+          </p>
+          <p>
+            <span className="font-medium">Email:</span>{" "}
+            <a
+              href="mailto:contact@Evara.com"
+              className="text-[#3BB77E] hover:underline"
+            >
+              contact@Evara.com
+            </a>
+          </p>
+
+          <button className="mt-3 flex items-center gap-2 bg-[#3BB77E] text-white px-5 py-2 rounded-lg hover:bg-[#2e9e67] transition-all">
+            <FaMapMarkedAlt />
+            View map
+          </button>
+        </div>
       </div>
 
-      {/* Help Topics */}
-      {/* <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12 text-left">
-        <div>
-          <h5 className="font-semibold text-[#3bb77e]">01. Visit Feedback</h5>
-          <p className="text-gray-500 text-sm mt-2">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-          </p>
-        </div>
-        <div>
-          <h5 className="font-semibold text-[#3bb77e]">02. Employer Services</h5>
-          <p className="text-gray-500 text-sm mt-2">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-          </p>
-        </div>
-        <div>
-          <h5 className="font-semibold text-[#3bb77e]">03. Billing Inquiries</h5>
-          <p className="text-gray-500 text-sm mt-2">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-          </p>
-        </div>
-        <div>
-          <h5 className="font-semibold text-[#3bb77e]">04. General Inquiries</h5>
-          <p className="text-gray-500 text-sm mt-2">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-          </p>
-        </div>
-      </div>  */}
 
-      {/* Office Information */}
-      {/* <div className="grid md:grid-cols-3 gap-6 mb-16">
-        {[
-          { title: "Office" },
-          { title: "Studio" },
-          { title: "Shop" },
-        ].map((loc, i) => (
-          <div key={i} className="border rounded-2xl p-6 shadow-sm hover:shadow-md transition">
-            <h4 className="font-semibold text-lg mb-3">{loc.title}</h4>
-            <p className="text-gray-500 text-sm">
-              205 North Michigan Avenue, Suite 910 <br />
-              Chicago, 60601, USA <br />
-              Phone: (123) 456-7890 <br />
-              Email: contact@byrva.com
-            </p>
-            <button className="mt-4 bg-[#3bb77e] text-white px-4 py-2 rounded-lg text-sm">
-              View map
-            </button>
-          </div>
-        ))}
-      </div> */}
+
 
       {/* Contact Form Section */}
       <div className="grid md:grid-cols-2 gap-10 items-start">

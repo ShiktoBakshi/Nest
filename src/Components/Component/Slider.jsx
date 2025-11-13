@@ -5,16 +5,16 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 const categories = [
-  { name: "Cake & Milk", items: 11, image: "/images/cake.png", bg: "bg-green-50" },
-  { name: "Organic Kiwi", items: 6, image: "/images/kiwi.png", bg: "bg-green-100" },
-  { name: "Peach", items: 6, image: "/images/peach.png", bg: "bg-rose-50" },
-  { name: "Read Apple", items: 10, image: "/images/apple.png", bg: "bg-orange-50" },
-  { name: "Snacks", items: 11, image: "/images/snacks.png", bg: "bg-yellow-50" },
-  { name: "Vegetables", items: 6, image: "/images/lettuce.png", bg: "bg-purple-50" },
-  { name: "Strawberry", items: 10, image: "/images/strawberry.png", bg: "bg-green-50" },
-  { name: "Black plum", items: 10, image: "/images/plum.png", bg: "bg-red-50" },
-  { name: "Custard apple", items: 10, image: "/images/custard.png", bg: "bg-green-50" },
-  { name: "Coffee & Tea", items: 11, image: "/images/coffee.png", bg: "bg-yellow-50" },
+  { name: "Cake & Milk", items: 11, image: "/src/assets/Figure-1.png", bg: "bg-green-50" },
+  { name: "Organic Kiwi", items: 6, image: "/src/assets/Figure-2.png", bg: "bg-green-100" },
+  { name: "Peach", items: 6, image: "/src/assets/Figure-3.png", bg: "bg-rose-50" },
+  { name: "Read Apple", items: 10, image: "/src/assets/Figure-4.png", bg: "bg-orange-50" },
+  { name: "Snacks", items: 11, image: "/src/assets/Figure-5.png", bg: "bg-yellow-50" },
+  { name: "Vegetables", items: 6, image: "/src/assets/Figure-6.png", bg: "bg-purple-50" },
+  { name: "Strawberry", items: 10, image: "/src/assets/Figure-7.png", bg: "bg-green-50" },
+  { name: "Black plum", items: 10, image: "/src/assets/Figure-8.png", bg: "bg-red-50" },
+  { name: "Custard apple", items: 10, image: "/src/assets/Figure-9.png", bg: "bg-green-50" },
+  { name: "Coffee & Tea", items: 11, image: "/src/assets/Figure-10.png", bg: "bg-yellow-50" },
 ];
 
 export default function Slider() {

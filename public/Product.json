@@ -29,8 +29,8 @@
     "price": 22.85,
     "old_price": 24.80,
     "discount": "8%",
-    "image": "",
-    "label": "https://i.ibb.co.com/8DwNx8bH/Haagen-Caramel-Cone-Ice-Cream-Boxed.png"
+    "image": "https://i.ibb.co.com/8DwNx8bH/Haagen-Caramel-Cone-Ice-Cream-Boxed.png",
+    "label": ""
   },
   {
     "id": 4,

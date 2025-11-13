@@ -1,15 +1,14 @@
 
 
 
-import { Link } from "react-router-dom";
+
+import { NavLink } from "react-router-dom";
 import logo from "../../../assets/logo.png"
 import { MdOutlineLocalFireDepartment } from "react-icons/md";
 
 
 const Nav = () => {
-  const activeLink =
-    "text-[#3BB77E] font-semibold border-b-2 border-[#3BB77E]";
-  const normalLink = "text-gray-600 hover:text-[#3BB77E] transition";
+
 
 
     return (
@@ -24,14 +23,61 @@ const Nav = () => {
                             tabIndex="-1"
                             className="menu menu-sm backdrop-blur-xl dropdown-content  rounded-box z-1 mt-3 w-52 p-2 shadow">
 
-                            <li> <Link to="/"  className={({ isActive }) => (isActive ? activeLink : normalLink)}>Home</Link> </li>
-                            <li><Link to="/about"  className={({ isActive }) => (isActive ? activeLink : normalLink)} >About</Link> </li>
-                            <li><a>Shop</a></li>
-                            <li> <Link to="/mega"  className={({ isActive }) => (isActive ? activeLink : normalLink)}>Mega Menu</Link></li>
-                            <li><a>Vendors</a></li>
-                            <li> <Link to="/blog">Blog</Link></li>
-                            <li><a>Pages</a></li>
-                            <li> <Link to="/contact">Contact</Link></li>
+                            <li>
+                                <NavLink
+                                    to="/"
+                                    className={({ isActive }) =>
+                                        isActive ? "text-[#3BB77E] font-semibold border-b-2 border-[#3BB77E]" : "text-gray-700"
+                                    }
+                                >
+                                    Home
+                                </NavLink>
+                            </li>
+
+                            <li>
+                                <NavLink
+                                    to="/about"
+                                    className={({ isActive }) =>
+                                        isActive ? "text-[#3BB77E] font-semibold border-b-2 border-[#3BB77E]" : "text-gray-700"
+                                    }
+                                >
+                                    About
+                                </NavLink>
+                            </li>
+
+                            <li>
+                                <NavLink
+                                    to="/mega"
+                                    className={({ isActive }) =>
+                                        isActive ? "text-[#3BB77E] font-semibold border-b-2 border-[#3BB77E]" : "text-gray-700"
+                                    }
+                                >
+                                    Mega Menu
+                                </NavLink>
+                            </li>
+
+                            <li>
+                                <NavLink
+                                    to="/blog"
+                                    className={({ isActive }) =>
+                                        isActive ? "text-[#3BB77E] font-semibold border-b-2 border-[#3BB77E]" : "text-gray-700"
+                                    }
+                                >
+                                    Blog
+                                </NavLink>
+                            </li>
+
+                            <li>
+                                <NavLink
+                                    to="/contact"
+                                    className={({ isActive }) =>
+                                        isActive ? "text-[#3BB77E] font-semibold border-b-2 border-[#3BB77E]" : "text-gray-700"
+                                    }
+                                >
+                                    Contact
+                                </NavLink>
+                            </li>
+
                         </ul>
                     </div>
                     <div className=" justify-center items-center flex gap-2">
@@ -51,14 +97,60 @@ const Nav = () => {
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu-horizontal gap-10">
-                        <li> <Link to="/">Home</Link> </li>
-                        <li><Link to="/about" >About</Link> </li>
-                        <li><a>Shop</a></li>
-                        <li> <Link to="/mega">Mega Menu</Link></li>
-                        <li><a>Vendors</a></li>
-                        <li> <Link to="/blog">Blog</Link></li>
-                        <li><a>Pages</a></li>
-                        <li> <Link to="/contact">Contact</Link></li>
+                         <li>
+                                <NavLink
+                                    to="/"
+                                    className={({ isActive }) =>
+                                        isActive ? "text-[#3BB77E] font-semibold border-b-2 border-[#3BB77E]" : "text-gray-700"
+                                    }
+                                >
+                                    Home
+                                </NavLink>
+                            </li>
+
+                            <li>
+                                <NavLink
+                                    to="/about"
+                                    className={({ isActive }) =>
+                                        isActive ? "text-[#3BB77E] font-semibold border-b-2 border-[#3BB77E]" : "text-gray-700"
+                                    }
+                                >
+                                    About
+                                </NavLink>
+                            </li>
+
+                            <li>
+                                <NavLink
+                                    to="/mega"
+                                    className={({ isActive }) =>
+                                        isActive ? "text-[#3BB77E] font-semibold border-b-2 border-[#3BB77E]" : "text-gray-700"
+                                    }
+                                >
+                                    Mega Menu
+                                </NavLink>
+                            </li>
+
+                            <li>
+                                <NavLink
+                                    to="/blog"
+                                    className={({ isActive }) =>
+                                        isActive ? "text-[#3BB77E] font-semibold border-b-2 border-[#3BB77E]" : "text-gray-700"
+                                    }
+                                >
+                                    Blog
+                                </NavLink>
+                            </li>
+
+                            <li>
+                                <NavLink
+                                    to="/contact"
+                                    className={({ isActive }) =>
+                                        isActive ? "text-[#3BB77E] font-semibold border-b-2 border-[#3BB77E]" : "text-gray-700"
+                                    }
+                                >
+                                    Contact
+                                </NavLink>
+                            </li>
                     </ul>
                 </div>
                 <div className="navbar-end">

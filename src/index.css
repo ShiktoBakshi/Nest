@@ -1,2 +1,14 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #3BB77E !important;
+  font-size: 24px;
+}
+
+.root{
+    overflow-x: hidden;
+}
