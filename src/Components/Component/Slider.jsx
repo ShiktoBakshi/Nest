@@ -5,17 +5,68 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 const categories = [
-  { name: "Cake & Milk", items: 11, image: "/src/assets/Figure-1.png", bg: "bg-green-50" },
-  { name: "Organic Kiwi", items: 6, image: "/src/assets/Figure-2.png", bg: "bg-green-100" },
-  { name: "Peach", items: 6, image: "/src/assets/Figure-3.png", bg: "bg-rose-50" },
-  { name: "Read Apple", items: 10, image: "/src/assets/Figure-4.png", bg: "bg-orange-50" },
-  { name: "Snacks", items: 11, image: "/src/assets/Figure-5.png", bg: "bg-yellow-50" },
-  { name: "Vegetables", items: 6, image: "/src/assets/Figure-6.png", bg: "bg-purple-50" },
-  { name: "Strawberry", items: 10, image: "/src/assets/Figure-7.png", bg: "bg-green-50" },
-  { name: "Black plum", items: 10, image: "/src/assets/Figure-8.png", bg: "bg-red-50" },
-  { name: "Custard apple", items: 10, image: "/src/assets/Figure-9.png", bg: "bg-green-50" },
-  { name: "Coffee & Tea", items: 11, image: "/src/assets/Figure-10.png", bg: "bg-yellow-50" },
+  {
+    name: " Blackberry",
+    items: 11,
+    image: "https://i.ibb.co.com/jvRLZS8v/Figure-5.png",
+    bg: "bg-green-50",
+  },
+  {
+    name: "Organic Turmeric",
+    items: 6,
+    image: "https://i.ibb.co.com/zVvjTYGf/Figure-1.png",
+    bg: "bg-green-100",
+  },
+  {
+    name: " Cabbage",
+    items: 6,
+    image: "https://i.ibb.co.com/hFpFGNPw/Figure-2.png",
+    bg: "bg-rose-50",
+  },
+  {
+    name: "Strawberry",
+    items: 10,
+    image: "https://i.ibb.co.com/CpWSrS14/Figure-3.png",
+    bg: "bg-orange-50",
+  },
+  {
+    name: " Malta",
+    items: 11,
+    image: "https://i.ibb.co.com/HDZrQq4p/Figure-6.png",
+    bg: "bg-yellow-50",
+  },
+  {
+    name: " Burger",
+    items: 6,
+    image: "https://i.ibb.co.com/CpF6S2Ct/Figure-7.png",
+    bg: "bg-purple-50",
+  },
+  {
+    name: "Kiwi berry",
+    items: 10,
+    image: "https://i.ibb.co.com/p6DQF02G/Figure-8.png",
+    bg: "bg-green-50",
+  },
+  {
+    name: "Black plum",
+    items: 10,
+    image: "https://i.ibb.co.com/nqSbSVNm/Figure-9.png",
+    bg: "bg-red-50",
+  },
+  {
+    name: "Custard apple",
+    items: 10,
+    image: "https://i.ibb.co.com/X1tXpVC/Figure-10.png",
+    bg: "bg-green-50",
+  },
+  {
+    name: "Coffee & Tea",
+    items: 11,
+    image: "https://i.ibb.co.com/gMhftbnj/Figure-4.png",
+    bg: "bg-yellow-50",
+  },
 ];
+
 
 export default function Slider() {
   return (

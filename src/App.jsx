@@ -1,4 +1,4 @@
-import { Await, createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
+import {  createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 import './App.css';
 
 import Footer from "./Components/Component/Root/Footer";
@@ -8,6 +8,8 @@ import Blog from "./Components/Component/Blog";
 import Contact from "./Components/Component/Contact";
 import Nav from "./Components/Component/Root/Nav";
 import Mega from "./Components/Component/Mega";
+import Login from "./Components/Component/Login";
+// import Login from "./Components/Component/Login";
 
 
 
@@ -84,6 +86,10 @@ const router = createBrowserRouter([
           return data;
         },
       },
+      {
+        path:"/login",
+        element:<Login/>
+      }
     ],
   },
 ]);

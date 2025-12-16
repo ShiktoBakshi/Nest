@@ -5,6 +5,7 @@
 import { NavLink } from "react-router-dom";
 import logo from "../../../assets/logo.png"
 import { MdOutlineLocalFireDepartment } from "react-icons/md";
+import { SignedIn, SignedOut, UserButton } from "@clerk/clerk-react";
 
 
 const Nav = () => {
@@ -154,7 +155,20 @@ const Nav = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn bg-[#3BB77E] ">Login</a>
+                     <SignedOut>
+                        <NavLink className="py-2 px-4 bg-[#3BB77E] rounded-xl" to="/login">Login</NavLink>
+                    </SignedOut>
+
+                    <SignedIn>
+                        <UserButton
+                            appearance={{
+                                elements: {
+                                    avatarBox: "w-8 h-8",
+                                },
+                            }}
+                        />
+                    </SignedIn>
+
                 </div>
             </div>
         </>
